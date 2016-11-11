@@ -9,7 +9,7 @@ router.get('/introduce', function(req, res, next) {
   res.render('introduce.ejs', {title: '简介'});
 });
 router.get('/Contact_information', function(req, res, next) {
-  res.render('Contact_information.ejs', {title: '联系方式', tel: '400-862-9959'});
+  res.render('Contact_information.ejs', {title: '联系方式', tel: '400-862-9959',mail:'service@zhimei360.com'});
 });
 router.get('/history', function(req, res, next) {
   res.render('history.ejs', {title: '历程'});
